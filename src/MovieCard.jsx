@@ -2,7 +2,7 @@ import React from "react";
 
 const MovieCard = ({ movie }) => {
   return (
-    <div className="movie">
+    <div className="movie" style={{ background: "transparent", animation: "fade-in 1s" }}>
       <div>
         <p>{movie.Year}</p>
       </div>

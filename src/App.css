@@ -25,7 +25,6 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
@@ -38,6 +37,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
+  animation: fade-in 10s;
 }
 
 .search {
